@@ -1,0 +1,17 @@
+# Site specific settings
+title: "BlackSheep Vision"
+name: "BlackSheep Vision"
+keywords: "blog, infosec, offensive security, pentetration testing"
+baseurl: ""
+url: "http://blacksheep.vision"
+description: "A blog about day to day experiences"
+cover: "/assets/img/cover.svg"
+fanpage_id: ""
+
+# Site general settings
+lang: "en"
+ssl: false # It will redirect to https
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
